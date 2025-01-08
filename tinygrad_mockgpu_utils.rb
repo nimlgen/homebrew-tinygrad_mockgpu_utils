@@ -6,6 +6,7 @@ class TinygradMockgpuUtils < Formula
 	version "1.0"
 
 	def install
-		lib.install "libremu.dylib" "libamd_comgr.dylib"
+		lib.install "libremu.dylib"
+		lib.install "libamd_comgr.dylib"
 	end
 end
